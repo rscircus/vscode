@@ -1,0 +1,218 @@
+{
+    "C_Cpp.updateChannel": "Insiders",
+    "[javascript]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[markdown]": {
+        "editor.quickSuggestions": false,
+        "editor.wordWrap": "on",
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "activitusbar.activeColour": "#000",
+    "activitusbar.inactiveColour": "#999",
+    "c-cpp-flylint.flexelint.enable": false,
+    "clock.dateFormat": "HH:MM",
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "Iosevka Term SS07 Medium, Iosevka Term SS05 Medium, Input,  Iosevka Term SS05, Fira Code, Iosevka, Consolas, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveTimeout": 500,
+    "editor.formatOnType": true,
+    "editor.minimap.enabled": true,
+    "editor.minimap.maxColumn": 80,
+    "editor.minimap.showSlider": "always",
+    "editor.multiCursorModifier": "alt",
+    "editor.renderIndentGuides": false,
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.wordWrap": "on",
+    "emojisense.languages": {
+        "git-commit": true,
+        "html": true,
+        "json": true,
+        "markdown": true,
+        "plaintext": true,
+        "svelte": true
+    },
+    "eslint.alwaysShowStatus": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "autoFix": true,
+            "language": "typescript"
+        },
+        {
+            "autoFix": true,
+            "language": "typescriptreact"
+        }
+    ],
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.autoUpdate": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1500,
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.svn": true
+    },
+    "go.formatTool": "goimports",
+    "java.home": "/usr/lib/jvm/java-1.11.0-openjdk-amd64",
+    "markdown.preview.fontSize": 16,
+    "markdown.preview.lineHeight": 1.2,
+    "markdown.styles": [
+        "https://cdn.rawgit.com/wghglory/9b6e502a0c81d135e83fce87be83a18c/raw/7a9bdd06e9f2fe4a53d84900d5ac77912f939873/github-markdown.css"
+    ],
+    "prettier.jsxSingleQuote": true,
+    "prettier.printWidth": 132,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "es5",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": ["--max-line-length=88"],
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "black",
+    "python.formatting.autopep8Path": "autopep8",
+    "python.venvPath": "~/.cache/pypoetry/s",
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.shell.linux": "zsh",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "vim.autoSwitchInputMethod.enable": false,
+    "vim.easymotion": true,
+    "vim.handleKeys": {
+        "<A-left>": false,
+        "<A-right>": false,
+        "<C-+>": false,
+        "<C-->": false,
+        "<C-=>": false,
+        "<C-S-`>": false,
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-j>": false,
+        "<C-k>": false,
+        "<C-s>": false,
+        "<C-w>": false
+    },
+    "vim.hlsearch": true,
+    "vim.incsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "after": ["<Esc>"],
+            "before": ["j", "j"]
+        }
+    ],
+    "vim.leader": ",",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "after": ["d", "d"],
+            "before": ["<leader>", "d"]
+        },
+        {
+            "before": ["<C-n>"],
+            "commands": [":nohl"]
+        },
+        {
+            "before": [">"],
+            "commands": ["editor.action.indentLines"]
+        },
+        {
+            "before": ["<"],
+            "commands": ["editor.action.outdentLines"]
+        }
+    ],
+    "vim.useCtrlKeys": true,
+    "vim.useSystemClipboard": true,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.menuBarVisibility": "toggle",
+    "window.zoomLevel": 1,
+    "workbench.activityBar.visible": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.panel.defaultLocation": "bottom",
+    "todo-tree.highlights.enabled": true,
+    "peacock.favoriteColors": [
+        {
+            "name": "Angular Red",
+            "value": "#b52e31"
+        },
+        {
+            "name": "Auth0 Orange",
+            "value": "#eb5424"
+        },
+        {
+            "name": "Azure Blue",
+            "value": "#007fff"
+        },
+        {
+            "name": "C# Purple",
+            "value": "#68217A"
+        },
+        {
+            "name": "Gatsby Purple",
+            "value": "#639"
+        },
+        {
+            "name": "Go Cyan",
+            "value": "#5dc9e2"
+        },
+        {
+            "name": "Java Blue-Gray",
+            "value": "#557c9b"
+        },
+        {
+            "name": "JavaScript Yellow",
+            "value": "#f9e64f"
+        },
+        {
+            "name": "Mandalorian Blue",
+            "value": "#1857a4"
+        },
+        {
+            "name": "Node Green",
+            "value": "#215732"
+        },
+        {
+            "name": "React Blue",
+            "value": "#00b3e6"
+        },
+        {
+            "name": "Something Different",
+            "value": "#832561"
+        },
+        {
+            "name": "Vue Green",
+            "value": "#42b883"
+        }
+    ],
+    "go.autocompleteUnimportedPackages": true,
+    "workbench.colorTheme": "acme",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.tabSize": 2,
+    "todo-tree.tree.showScanModeButton": false,
+    "latex-workshop.latex.autoBuild.run": "onFileChange",
+    "python.languageServer": "Microsoft",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "webhint.enableTelemetry": "disabled",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.enableExperiments": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "settingsSync.keybindingsPerPlatform": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "git.autoStash": true
+}
